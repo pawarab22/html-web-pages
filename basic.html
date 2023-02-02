@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding:0 ;
+    }
+    header{
+        text-align: center;
+        background-color: gray;
+        height: 50px;
+        color: wheat;
+        padding-top: 30px;
+    }
+    section{
+        background-color: aquamarine;
+    }
+    section::after{ 
+        content: "";
+        display: table;
+        clear: both;
+    }
+    a{
+        text-decoration: none;
+        
+    }
+    ul{
+        list-style-type: none;
+        background-color: rgb(132, 156, 177);
+    }
+    aside{
+        width: 30%;
+        background-color: rgb(89, 17, 58);
+        height: 418px;
+        float: left;
+    }
+    article{
+        background-color: rgb(157, 182, 157);
+        width: 70%;
+        height: 418px;
+        float: right;
+        text-align: left;
+    }
+    footer{
+        height: 50px;
+        padding-top: 15px;
+        background-color: cornflowerblue;
+        text-align: center;
+        font-size: small;
+    }
+    @media  (max-width:600px){
+    aside,article
+    {
+    height: auto;
+    width: 100%;
+    }
+    }
+    img{
+        margin-left: 30%;
+    }
+</style>
+
+<body>
+    
+    <header>
+        <h1>Cities</h1>
+    </header>
+
+    <section>
+        <aside>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </aside>
+
+        <article>
+           <br>
+ <img src="balkan-anemone-flower-blossom-bloom-73813.jpeg" alt="" width="570px" height="390px">
+          
+        </article>
+    </section>
+
+    
+    <footer>
+        <h2>@rights reservered and developed by Abhishek</h2>
+    </footer>
+
+</body>
+</html>

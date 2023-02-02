@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    header{
+        height: 300px;
+        width: 100%;
+        background-color: gray;
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+    footer{
+        height: 150px;
+        width:100%;
+        background-color: gray;
+        color: antiquewhite;
+    }
+    ul{
+        list-style-type: none;
+    }
+    section{
+        width: 100%;
+        display: flex;
+    }
+    aside{
+        flex: 1;
+        background-color: aquamarine;
+    }
+    article{
+        flex: 3;
+        background-color: blueviolet;
+    }
+    @media(max-width:600px){
+        section{
+        flex-direction: coloumn;
+        }
+    }
+</style>
+<body>
+    <header>
+<h1>cities</h1>
+    </header>
+    <section>
+        <aside>
+            <ul>
+                <li><a href="#">London</a></li>
+                <li><a href="#">Paris</a></li>
+                <li><a href="#">Tokyo</a></li>
+            </ul>
+        </aside>
+        <article>
+            <b>Paris</b>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quaerat at, ab laborum inventore veniam veritatis laudantium provident cum numquam harum autem ipsum natus mollitia, libero consequuntur reiciendis molestias. Maxime?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ad molestiae, ratione esse iste pariatur maxime id corrupti dolorem doloribus voluptatum velit sapiente nam excepturi qui cumque saepe. Id, consectetur!</p>
+        </article>
+    </section>
+    <footer>
+footer
+    </footer>
+</body>
+</html>

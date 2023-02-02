@@ -1,0 +1,13 @@
+body{
+    
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    border: 1px green solid;
+    border-radius: 50%;
+    background-color: rgb(158, 176, 40);
+}
+footer{
+    border: 30px dashed black;
+}

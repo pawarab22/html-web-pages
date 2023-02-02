@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout ELEMENT</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: gray;
+            height: 100px;
+            color: white;
+            text-align: center;
+            padding-top: 10px;
+        }
+        nav{
+            background-color: aqua;
+            height: 60px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li a{
+            text-decoration: none;
+        }
+        li{
+            display: block;
+            float: left;
+            padding: 15px 25px;
+        }
+        section{
+            width: 100%;
+            background-color: aquamarine;
+            
+        }
+        article{
+            width: 100%;
+            background-color: rgb(43, 226, 98);
+        }
+        aside{
+            width: 60%;
+            background-color: brown;
+            float: left;
+            height: 200px;
+        }
+        .sidebar1{
+            width: 40%;
+            background-color: khaki;
+            float: left;
+            height: 2oopx;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            height: 100px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Heading</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </nav>
+    <section id="about">
+        <h1 style="text-align: center;">About</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quaerat beatae natus quia, quae eligendi odio mollitia quidem molestiae praesentium, similique pariatur eos nulla dolores omnis sunt veritatis facere incidunt consequuntur voluptatum. Fuga odio dolorum quasi molestiae numquam fugit nostrum doloribus placeat hic ipsum pariatur totam officiis, tempora laudantium perspiciatis ad commodi impedit eaque optio rem nemo? Obcaecati ratione libero illo in eligendi, culpa blanditiis sit voluptate neque consequuntur doloremque, officia cumque quod aliquam. Neque quod natus veniam velit qui accusantium explicabo ea totam pariatur dolores, eos vero maxime dicta minima corrupti labore, corporis illo facere nobis! Ipsum, sequi? Sit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quaerat beatae natus quia, quae eligendi odio mollitia quidem molestiae praesentium, similique pariatur eos nulla dolores omnis sunt veritatis facere incidunt consequuntur voluptatum. Fuga odio dolorum quasi molestiae numquam fugit nostrum doloribus placeat hic ipsum pariatur totam officiis, tempora laudantium perspiciatis ad commodi impedit eaque optio rem nemo? Obcaecati ratione libero illo in eligendi, culpa blanditiis sit voluptate neque consequuntur doloremque, officia cumque quod aliquam. Neque quod natus veniam velit qui accusantium explicabo ea totam pariatur dolores, eos vero maxime dicta minima corrupti labore, corporis illo facere nobis! Ipsum, sequi? Sit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste quaerat beatae natus quia, quae eligendi odio mollitia quidem molestiae praesentium, similique pariatur eos nulla dolores omnis sunt veritatis facere incidunt consequuntur voluptatum. Fuga odio dolorum quasi molestiae numquam fugit nostrum doloribus placeat hic ipsum pariatur totam officiis, tempora laudantium perspiciatis ad commodi impedit eaque optio rem nemo? Obcaecati ratione libero illo in eligendi, culpa blanditiis sit voluptate neque consequuntur doloremque, officia cumque quod aliquam. Neque quod natus veniam velit qui accusantium explicabo ea totam pariatur dolores, eos vero maxime dicta minima corrupti labore, corporis illo facere nobis! Ipsum, sequi? Sit.</p>
+    </section>
+    <article id="services">
+        <h1 style="text-align: center;">Services</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo id voluptatum ipsam repellat porro laudantium placeat numquam nihil iure! Dignissimos exercitationem animi autem. Soluta hic vitae quasi reprehenderit nobis autem beatae expedita, tempore, et odit voluptate enim assumenda voluptas excepturi dolore. Omnis totam ratione praesentium, dolorem hic provident saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo id voluptatum ipsam repellat porro laudantium placeat numquam nihil iure! Dignissimos exercitationem animi autem. Soluta hic vitae quasi reprehenderit nobis autem beatae expedita, tempore, et odit voluptate enim assumenda voluptas excepturi dolore. Omnis totam ratione praesentium, dolorem hic provident saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo id voluptatum ipsam repellat porro laudantium placeat numquam nihil iure! Dignissimos exercitationem animi autem. Soluta hic vitae quasi reprehenderit nobis autem beatae expedita, tempore, et odit voluptate enim assumenda voluptas excepturi dolore. Omnis totam ratione praesentium, dolorem hic provident saepe.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo id voluptatum ipsam repellat porro laudantium placeat numquam nihil iure! Dignissimos exercitationem animi autem. Soluta hic vitae quasi reprehenderit nobis autem beatae expedita, tempore, et odit voluptate enim assumenda voluptas excepturi dolore. Omnis totam ratione praesentium, dolorem hic provident saepe.</p>
+    </article>
+    <aside>
+        <h1>Sidebar</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit eum vero cupiditate, inventore explicabo consequuntur veniam, obcaecati perspiciatis nostrum saepe, debitis facere assumenda voluptate harum quas excepturi doloremque nam.</p>
+    </aside>
+    <aside class="sidebar1">
+        <h1>Sidebar1</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis suscipit eum vero cupiditate, inventore explicabo consequuntur veniam, obcaecati perspiciatis nostrum saepe, debitis facere assumenda voluptate harum quas excepturi doloremque nam.</p>
+    </aside>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
